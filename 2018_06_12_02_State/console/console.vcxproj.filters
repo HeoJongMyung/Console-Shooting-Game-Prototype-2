@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Games">
+      <UniqueIdentifier>{4f698a3e-a75a-4a47-b62c-8e0547109eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleEx3">
+      <UniqueIdentifier>{9a410920-dbe9-4e43-aba9-ab23edd6fe58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mng">
+      <UniqueIdentifier>{e89d337b-c364-4336-bbd0-dec2acd27b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mng\State">
+      <UniqueIdentifier>{a0ae553c-e223-4f5b-b9c7-f8a84e6e514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\State">
+      <UniqueIdentifier>{a60f228d-adf1-4a83-9c52-1909930d1c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{fc499bd3-5c52-4cc6-b2c8-68e311c2de5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleEx3\SysTimer.cpp">
+      <Filter>ConsoleEx3</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="State.cpp">
+      <Filter>Mng\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateCtrl.cpp">
+      <Filter>Mng\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoState.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="hero.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGame.cpp">
+      <Filter>Games\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ConsoleEx3\ConWrap.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapColors.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\ConWrapDefines.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConsoleEx3\SysTimer.h">
+      <Filter>ConsoleEx3</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Mng\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Extern.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="StateCtrl.h">
+      <Filter>Mng\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoState.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="hero.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGame.h">
+      <Filter>Games\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ConsoleEx3\개발일지.txt">
+      <Filter>ConsoleEx3</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
